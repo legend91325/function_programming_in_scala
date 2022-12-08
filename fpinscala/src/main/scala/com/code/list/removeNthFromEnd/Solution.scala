@@ -19,7 +19,7 @@ object Solution {
   def removeNthFromEnd(head: ListNode, n: Int): ListNode = {
     val emptyHead = new ListNode(0,head)
     removeNth(emptyHead,emptyHead,n+1)
-    head
+    emptyHead.next
   }
   def removeNth(slowNode:ListNode,fastNode:ListNode, n:Int):Unit = {
     //delete node
