@@ -6,8 +6,8 @@ package com.code.tree
  * @Description:
  */
 
-class TreeNode(_value: Integer = 0, _left: TreeNode = null, _right: TreeNode = null) {
-  var value: Integer = _value
+class TreeNode(_value: Int= 0, _left: TreeNode = null, _right: TreeNode = null) {
+  var value: Int= _value
   var left: TreeNode = _left
   var right: TreeNode = _right
 }
